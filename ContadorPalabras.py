@@ -27,6 +27,18 @@ class ContadorPalabras(QtWidgets.QMainWindow):
         self.tvCaracteres.setText(f"Caracteres: {totalCaracteres}")
 
 
+        #aqui abajo logica 
+        if totalCaracteres >= 120:
+            self.tvCaracteres.setStyleSheet("color: #FF0000;")
+        else:
+            self.tvCaracteres.setStyleSheet("color: #F4F4F4;")
+
+        if cantidadPalabras >= 20:
+            self.tvPalabras.setStyleSheet("color: #FF0000;")
+        else:
+            self.tvPalabras.setStyleSheet("color: #F4F4F4;")
+
+
         print("Se ha presionado el botón")
        
 app = QtWidgets.QApplication(sys.argv)
