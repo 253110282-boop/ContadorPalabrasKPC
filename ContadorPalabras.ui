@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>600</height> 
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -25,7 +25,7 @@ QLabel{
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>30</y>
+      <y>60</y>
       <width>511</width>
       <height>51</height>
      </rect>
@@ -52,7 +52,7 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>100</y>
+      <y>130</y>
       <width>421</width>
       <height>121</height>
      </rect>
@@ -141,6 +141,33 @@ background-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>caracteras=0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>-10</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roman</family>
+      <pointsize>28</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>proyecto:karen y manuel</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
